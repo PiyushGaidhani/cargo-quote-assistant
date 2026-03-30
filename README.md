@@ -505,22 +505,6 @@ The system still works, but the codebase should eventually be migrated to `googl
 - Protect `credentials.json` and `token.json` because they grant access to Gmail and APIs.
 - Treat stored quote data and email bodies as potentially sensitive customer information.
 
-## Recommended `.gitignore`
-
-```gitignore
-.env
-.venv/
-token.json
-credentials.json
-__pycache__/
-*.pyc
-logs/
-quotes/
-quotes.db
-last_run.json
-.DS_Store
-```
-
 ## Current Limitations
 
 - Pricing is approximate
