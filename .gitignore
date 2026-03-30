@@ -1,0 +1,12 @@
+.env
+.venv/
+token.json
+credentials.json
+__pycache__/
+*.pyc
+logs/
+quotes/
+quotes.db
+last_run.json
+.DS_Store
+*.numbers
